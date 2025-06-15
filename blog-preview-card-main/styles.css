@@ -1,0 +1,63 @@
+body {
+    background-color: #f6d050;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#mainblock {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 340px;
+  box-shadow: 7px 7px 0px 0px black;
+  border: 1px solid black;
+}
+
+#maintext {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#learning {
+    background-color: #f6d050;
+    width: 90px;
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#description {
+    color: grey;
+}
+
+#decoration {
+    border-radius: 10px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+}
+
+#author h4 {
+    margin-left: 10px;
+}
+
+#author img {
+    width: 37px;
+    height: 37px;
+}
